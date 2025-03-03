@@ -1,0 +1,23 @@
+@import url(navbar.css);
+@import url(section1.css);
+@import url(section2.css);
+@import url(section3.css);
+@import url(section4.css);
+@import url(rodape.css);
+@import url(locomotiveScrollBar.css);
+
+* {
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+}
+
+body {
+  transition: 0.3s ease-out;
+  overflow-x: hidden;
+  max-width: 100vw;
+  min-width: 100vw;
+  height: 100vh;
+  overscroll-behavior: none;
+  margin: 0;
+  padding: 0;
+}

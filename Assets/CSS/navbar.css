@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgba(0, 0, 0, 0.50);
+    position: fixed;
+    width: 1920px;
+    height: 50px;
+    z-index: 2;
+  }
+  
+  .navbar button {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  
+  .navbar button:after {    
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #ffffff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+    z-index: 4;
+  }
+  
+  .navbar button:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }

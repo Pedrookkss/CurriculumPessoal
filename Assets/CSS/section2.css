@@ -1,0 +1,25 @@
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .apresentacao p {
+    font-size: 0.750rem;
+    color: white;
+    margin: 0px;
+    text-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .cmd {
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cmd img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+  }
