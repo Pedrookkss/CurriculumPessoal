@@ -16,8 +16,8 @@
   background-clip:padding-box,text;
   background-repeat:no-repeat;
   animation: 
-   b .1s infinite steps(1),   
-   t calc(var(--n)*.05s) steps(var(--n)) forwards;
+   b .2s infinite steps(1),   
+   t calc(var(--n)*.1s) steps(var(--n)) forwards;
 }
 
 @keyframes t{
